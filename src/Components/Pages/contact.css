@@ -1,0 +1,65 @@
+.contact-karki {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.contact-karki h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-karki1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 3rem 0 7rem;
+}
+
+.contact-karki1 i {
+  display: flex;
+  position: absolute;
+  margin-left: -3rem;
+  font-size: 2rem;
+}
+
+.contact-karki1 h5 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.contact-karki1 p {
+  font-size: 1rem;
+  display: flex;
+  text-align: start;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-karki {
+    width: 88%;
+    margin-top: 2rem;
+  }
+  .contact-karki h1 {
+    font-size: 2.5rem;
+  }
+  .contact-karki1 {
+    flex-direction: column;
+    width: 88%;
+    margin: 2rem 0rem 0 5rem;
+  }
+  .contact-karki1 div {
+    width: 88%;
+    margin-bottom: 2rem;
+  }
+  .contact-karki1 i {
+    font-size: 1.5rem;
+  }
+  .contact-karki1 h5 {
+    font-size: 1.5rem;
+  }
+  .contact-karki1 p {
+    font-size: 1rem;
+  }
+}

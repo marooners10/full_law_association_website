@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --height: 30vh;
+  --width: 100%;
+}
+
+.slider-container_j {
+  height: var(--height);
+  width: var(--width);
+  position: relative;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.active_j {
+  display: inline-block;
+}
+
+.inactive_j {
+  display: none;
+}
+
+.slides_j {
+  height: var(--height);
+  width: var(--width);
+  position: relative;
+}
+
+.slide-text_j {
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 1rem;
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  z-index: 10;
+}
+
+.slide-by_j {
+  width: 100%;
+  height: 20%;
+  color: black;
+  font-size: 0.7rem;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  z-index: 10;
+}
+
+.all-dots_j {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 55%;
+  justify-content: center;
+  z-index: 200;
+}
+
+.dot_j {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  margin: 0px 3px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot_j,
+.dot_j:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+  .slide-title_j {
+    font-size: 1.5rem;
+  }
+
+  .slide-text_j {
+    font-size: 1rem;
+  }
+
+  .slide-by_j {
+    font-size: 0.8rem;
+  }
+}

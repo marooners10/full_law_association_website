@@ -1,0 +1,78 @@
+* {
+  font-family: "PT Sans", sans-serif;
+}
+.about-container {
+  margin: 3rem 0 3rem 0;
+}
+
+.cover {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cover img {
+  margin-right: 6rem;
+  width: 30rem;
+  height: 40vh;
+  margin-top: 2rem;
+}
+
+.cover p h2 {
+  display: flex;
+  text-align: start;
+  width: 40vw;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  /* box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11); */
+  margin-bottom: 1rem;
+}
+
+/* .cover .banner {
+  font-family: "Cedarville Cursive", cursive;
+} */
+
+.cursive-banner {
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  color: #354c84;
+}
+
+.cover p {
+  width: 40vw;
+  text-align: start;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-right: 9rem;
+}
+
+@media screen and (max-width: 850px) {
+  .about-container {
+    margin: 2rem 0 2rem 0;
+  }
+  .cover {
+    flex-direction: column-reverse;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cover img {
+    display: none;
+  }
+
+  .cover p h2 {
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+  }
+  .cover p {
+    width: 90%;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

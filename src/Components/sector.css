@@ -1,0 +1,219 @@
+.sector-hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.sector-hero img {
+  width: 100%;
+  height: 120vh;
+  object-fit: cover;
+}
+
+.dim-image {
+  filter: brightness(
+    0.1
+  ); /* Adjust the value to make the image dimmer (0.0 for fully dim, 1.0 for normal brightness) */
+}
+
+.hero-text-sector {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text-sector h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text-sector p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem 0 2rem 0;
+  color: #fff;
+}
+
+.sector-text {
+  width: 74%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sector-text div {
+  margin-left: 8rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sector-text h2 {
+  display: flex;
+  text-align: start;
+  justify-content: start;
+  font-size: 1rem;
+  color: white;
+}
+
+.sector-text p {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.sector-text i {
+  color: white;
+  display: flex;
+  position: absolute;
+  margin-left: -3rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .hero-text-sector {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-text-sector h1 {
+    padding: 10px 20px;
+  }
+
+  .sector-hero img {
+    height: 170vh;
+  }
+
+  .hero-text-sector p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+  .sector-text {
+    margin-left: 0rem;
+    display: block;
+    height: 115%;
+  }
+
+  .sector-text div {
+    margin-left: 4rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+
+  .sector-text h2 {
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .sector-text p {
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  .sector-text i {
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: -3rem;
+    font-size: 1.5rem;
+  }
+}
+
+.hero-about {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.hero-text .hide {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .hero-text-sector img {
+    height: 175vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-text-sector img {
+    height: 160vh;
+  }
+
+  .sector-text {
+    height: 135vh;
+  }
+
+  .sector-text h2 {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .sector-text p {
+    font-size: 1rem;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sector-hero img {
+    height: 196vh;
+  }
+
+  .sector-text {
+    height: 125vh;
+  }
+
+  .sector-text h2 {
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  .sector-text p {
+    font-size: 0.9rem;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sector-hero img {
+    height: 190vh;
+  }
+
+@media screen and (max-width: 400px) {
+  .sector-hero img {
+    height: 150vh;
+  }
+
+  .sector-text {
+    height: 145vh;
+  }
+
+  .sector-text h2 {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .sector-text p {
+    font-size: 0.7rem;
+    text-align: start;
+  }
+}

@@ -1,0 +1,105 @@
+.join-container {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-sidebar {
+  background-color: #ededed;
+  height: 70%;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.join-sidebar h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #354c84;
+  justify-content: start;
+}
+
+.practice-area {
+  margin-top: 5rem;
+}
+
+.practice-area ul li a {
+  font-size: 1rem;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+}
+
+.practice-area ul li a:hover {
+  color: #354c84;
+}
+
+.join-slider {
+  margin-top: 3rem;
+}
+
+.founder {
+  margin-top: 0rem;
+}
+
+.founder img {
+  margin-top: 1rem;
+}
+
+.founder a {
+  text-decoration: none;
+  color: black;
+}
+
+.founder span {
+  color: #939393;
+}
+
+.founder span ins {
+  text-decoration: none;
+}
+
+.join-content {
+  width: 60%;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.join-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #354c84;
+  text-align: center;
+}
+
+.join-content p {
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.join-content p ul li {
+  color: #354c84;
+}
+
+.join-content h4 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.join-content a {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+  .join-sidebar {
+    display: none;
+  }
+
+  .join-content {
+    width: 100%;
+    height: auto;
+  }
+}

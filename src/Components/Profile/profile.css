@@ -1,0 +1,180 @@
+.member {
+  width: 100%;
+  margin: auto;
+}
+
+.profile {
+  width: 100%;
+  margin: 2rem 0rem;
+  color: #2a2a2a;
+  background-color: #ededed;
+}
+
+.profile h1 {
+  font-size: 2.5rem;
+  color: #354c84;
+  text-align: center;
+  margin-top: 2rem;
+  height: 15%;
+  width: 100%;
+}
+
+.profile p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-card {
+  width: 350px;
+  margin: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  padding-bottom: 2rem;
+  background: #ededed;
+}
+
+.profile-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gradiant {
+  background-image: linear-gradient(#91baff, #205fff);
+  height: 150px;
+  width: 22.8rem;
+  margin-left: -64px;
+}
+
+.n-profile {
+  width: 27%;
+  text-align: center;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1rem 4rem;
+  margin: 3rem 3rem 1rem 2rem;
+}
+
+.n-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -60px;
+  padding: 5px;
+  background: white;
+  margin-left: -10px;
+}
+
+.n-image:hover img {
+  transform: scale(1.1);
+}
+
+.n-profile h4 {
+  font-size: 1.3rem;
+  padding: 0.9rem 0 0.2rem 0;
+}
+
+.n-profile p {
+  font-size: 1rem;
+  padding: 0.9rem 0 0.2rem 0;
+}
+
+.profile-btn {
+  font-size: 16px;
+  background: #205fff;
+  /* margin: 1rem 1rem; */
+  margin: 1rem 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-radius: 3rem;
+}
+
+.profile-btn a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .member {
+    margin: 4rem 0rem;
+  }
+
+  .profile {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .profile h1 {
+    font-size: 2rem;
+  }
+
+  .profile p {
+    font-size: 1rem;
+  }
+
+  .profile-list-container {
+    margin-left: 2rem;
+  }
+
+  .gradiant {
+    background-image: linear-gradient(#91baff, #205fff);
+    height: 150px;
+    width: 19rem;
+    margin-left: -64px;
+  }
+
+  .n-profile {
+    width: 19rem;
+    padding: 1rem 4rem;
+    margin: 3rem 3rem 1rem 0rem;
+  }
+
+  /* .member {
+    margin: 4rem 2rem;
+  }
+
+  .member h1 {
+    font-size: 2.5rem;
+  }
+
+  .member p {
+    font-size: 1rem;
+  }
+
+  .profile-card {
+    flex-direction: column;
+  }
+
+  .n-profile {
+    width: 89%;
+    margin-bottom: 1.5rem;
+  } */
+}
+
+@media screen and (max-width: 745px) {
+  .profile-list-container {
+    margin-left: 0rem;
+  }
+
+  .gradiant {
+    background-image: linear-gradient(#91baff, #205fff);
+    height: 150px;
+    width: 100%; /* Set the width to 100% for responsiveness */
+    margin-left: 0; /* Remove the left margin */
+  }
+
+  .n-profile {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    padding: 1rem 0rem;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+}

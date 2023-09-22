@@ -1,0 +1,84 @@
+.appointment1 {
+  background-color: #ededed;
+  width: 98vw;
+  height: auto;
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+}
+
+.appointment1 h2 {
+  width: 100%;
+  font-size: 2rem;
+  color: #354c84;
+  display: flex;
+  justify-content: center;
+}
+
+.appointment1 p {
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.appointment1 a {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #ededed;
+  color: #354c84;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.appointment1 a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for screens up to 850px in width */
+@media screen and (max-width: 850px) {
+  .appointment1 {
+    margin-top: 36rem;
+    width: 100vw;
+  }
+
+  .appointment1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .appointment1 p {
+    font-size: 1.1rem;
+  }
+  .appointment-btn {
+    margin: 0rem 4rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  .appointment-btn a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .appointment1 {
+    margin-top: 45rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .appointment1 {
+    margin-top: 45rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .appointment1 {
+    margin-top: 70rem;
+  }
+}

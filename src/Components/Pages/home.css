@@ -1,0 +1,79 @@
+.appointment {
+  position: absolute;
+  padding: 1rem;
+  margin: 9rem 0rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.appointment h2 {
+  font-size: 2rem;
+  color: black;
+  margin-left: 22rem;
+}
+
+.appointment p {
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  text-align: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.appointment-btn {
+  font-size: 16px;
+  margin: 3rem 34rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-radius: 3rem;
+  border: 1px solid #990000;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.appointment-btn a {
+  text-decoration: none;
+  color: #990000;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4.5rem;
+  font-weight: bold;
+  transition: background-color 0s, color 0s;
+}
+
+.appointment-btn:hover {
+  background-color: #bca480;
+  border-color: transparent;
+  color: white;
+}
+
+/* Media query for screens up to 850px in width */
+@media screen and (max-width: 850px) {
+  .appointment {
+    margin: 10rem 0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+  }
+
+  .appointment h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    -webkit-background-clip: text;
+  }
+
+  .appointment p {
+    font-size: 1.1rem;
+  }
+  .appointment-btn {
+    margin: 0rem 4rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  .appointment-btn a {
+    font-size: 13px;
+  }
+}

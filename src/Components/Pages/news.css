@@ -1,0 +1,102 @@
+.join-container {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-sidebar {
+  height: 70%;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.join-sidebar h2 {
+  font-size: 1rem;
+  justify-content: start;
+}
+
+.practice-area {
+  margin-top: 5rem;
+}
+
+.practice-area ul li a {
+  font-size: 1rem;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+}
+
+.practice-area ul li a:hover {
+  color: #354c84;
+}
+
+.join-slider {
+  margin-top: 3rem;
+}
+
+.founder {
+  margin-top: 0rem;
+}
+
+.founder img {
+  margin-top: 1rem;
+}
+
+.founder a {
+  text-decoration: none;
+  color: black;
+}
+
+.founder span {
+  color: #939393;
+}
+
+.founder span ins {
+  text-decoration: none;
+}
+
+.join-content {
+  width: 60%;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.join-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: start;
+}
+
+.join-content p {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+}
+
+.join-content p a {
+  text-align: start;
+  color: #354c84;
+}
+
+@media screen and (max-width: 850px) {
+  .join-sidebar {
+    display: none;
+  }
+
+  .join-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .join-content h2 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+}

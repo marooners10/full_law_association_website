@@ -1,0 +1,82 @@
+.karki-firm0 p {
+  width: 95vw;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: justify;
+  font-size: 1.3rem;
+  color: #354c84;
+  font-weight: 700;
+}
+
+.appointment11 {
+  background-color: #ededed;
+  width: 98vw;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.appointment11 h2 {
+  width: 100%;
+  font-size: 2rem;
+  color: #354c84;
+  display: flex;
+  justify-content: center;
+}
+
+.appointment11 p {
+  background-color: #ededed;
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.appointment11 a {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #222;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.appointment11 a:hover {
+  color: #354c84;
+}
+
+/* Media query for screens up to 850px in width */
+@media screen and (max-width: 850px) {
+  .karki-firm0 p {
+    font-size: 1rem;
+  }
+
+  .appointment11 {
+    margin-top: 3rem;
+    width: 100vw;
+  }
+
+  .appointment11 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .appointment11 p {
+    font-size: 1.1rem;
+  }
+  .appointment11-btn {
+    margin: 0rem 4rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  .appointment11-btn a {
+    font-size: 13px;
+  }
+}
